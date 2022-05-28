@@ -1,5 +1,6 @@
 # PdfApiService
- Api service project in asp.net core
+ Api service project in asp.net core.
+ 
  An homework project to extract data from cv pdf file and to store it in mongodb  database.
  I used this source to learn and to get the solution: https://www.youtube.com/watch?v=iWTdJ1IYGtg
  and this text version: https://www.pragimtech.com/blog/mongodb-tutorial/asp-net-6-rest-api-tutorial/
@@ -24,8 +25,8 @@
    patern also makes the maintenence and changes in code easier.
 
  In Program.cs I make configurations to map the data base and connection details within appsetting.jason
-   to the setting class (in PdfCvItemsStoreDatabaseSettings.cs). I also register the two injectables
-   - of setting and mongoclient to use in Service repository and the (injectable) service repository itself
+   to the setting class (in PdfCvItemsStoreDatabaseSettings.cs). I also register the two injectables-
+   setting and mongoclient to use in Service repository and the (injectable) service repository itself
    to use in the controller.
  The using of Program.cs as configuration file makes the maintenence of the code easier as it 
    centralizes the changable parts of the code in one place.
