@@ -24,7 +24,7 @@
 
  In Program.cs I make configurations to map the data base and connection details within appsetting.jason
    to the setting class (in PdfCvItemsStoreDatabaseSettings.cs). I also register the two injectables
-   - of setting and mongoclient to use in service repository and the (injectable) service repository itself
+   - of setting and mongoclient to use in Service repository and the (injectable) service repository itself
    to use in the controller.
  The using of Program.cs as configuration file makes the maintenence of the code easier as it 
    centralizes the changable parts of the code in one place.
