@@ -1,3 +1,5 @@
+HIIS REPOSITORY IS A HOME WORK WHICH I RECEIVED TO DO DURING AN APPLYING FOR A JOB.
+
 # PdfApiService
  Api service project in asp.net core.
  
